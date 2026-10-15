@@ -83,23 +83,19 @@
     "highlight": "Participation from publicly listed companies",
     "extra_links": [
       {
-        "label": "Sinohealth announcement",
-        "url": "https://www.sinohealth.cn/sys-nd/1381.html"
-      },
-      {
-        "label": "Coverage 1",
+        "label": "Wedoctor",
         "url": "https://mp.weixin.qq.com/s/vgzq053TGwmIvIgAOy3CUg"
       },
       {
-        "label": "Coverage 2",
+        "label": "OpenMMLab",
         "url": "https://mp.weixin.qq.com/s/jrCYs9AiqzLL9GBCDZT4Pg"
       },
       {
-        "label": "Coverage 3",
+        "label": "JianPeiGPT",
         "url": "https://mp.weixin.qq.com/s/cPvF8FxBwYkvJfVEagf0Jg"
       },
       {
-        "label": "Coverage 4",
+        "label": "SinoHealth",
         "url": "https://mp.weixin.qq.com/s/f8ALRPyHkzkscGmqcE5G9Q"
       }
     ]
