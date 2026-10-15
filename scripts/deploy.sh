@@ -35,10 +35,12 @@ origin="$(git remote get-url origin)"
 if [[ "$origin" != "https://github.com/$repo.git" ]]; then echo 'Unexpected origin; refusing to push.' >&2; exit 1; fi
 # GitHub requires a nonempty repository before Pages can be enabled.
 git push -u origin main
-if "$GH" api "repos/$repo/pages" --silent 2>/dev/null; then
-  "$GH" api --method PUT "repos/$repo/pages" -f build_type=workflow --silent
-else
-  "$GH" api --method POST "repos/$repo/pages" -f build_type=workflow --silent
+# GitHub may auto-enable legacy Pages immediately after the first push.
+# Try updating first; if creation races with auto-enablement, update again.
+if ! "$GH" api --method PUT "repos/$repo/pages" -f build_type=workflow --silent 2>/dev/null; then
+  if ! "$GH" api --method POST "repos/$repo/pages" -f build_type=workflow --silent; then
+    "$GH" api --method PUT "repos/$repo/pages" -f build_type=workflow --silent
+  fi
 fi
 # Dispatch after enabling Pages; this also supersedes any initial setup run.
 "$GH" workflow run pages.yml --repo "$repo" --ref main
