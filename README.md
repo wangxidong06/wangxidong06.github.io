@@ -1,6 +1,6 @@
 # Xidong Wang — academic homepage
 
-Personal website for **wangxidong06.github.io**, built with static HTML/CSS and a small Python Markdown generator. Includes About, Publications, Blog, a printable CV, and an Atom feed. No JavaScript is required to read the site.
+Personal website for **wangxidong06.github.io**, built with static HTML/CSS and a small Python Markdown generator. Includes About, Publications, Blog, a compiled PDF CV, and an Atom feed. No JavaScript is required to read the site.
 
 ## 本地构建和预览
 
@@ -28,10 +28,10 @@ python -m http.server 8000 --bind 127.0.0.1
 - `scripts/build.py`：个人介绍、经历、教育、教学和服务。
 - `publications.json`：论文条目、作者、会议及论文/代码链接。
 - `assets/style.css`：字体、颜色、间距、移动端和打印布局。
-- `assets/portrait.png`：头像，初版来自本人 GitHub 公开头像。
-- CV 页面可使用浏览器打印功能保存 PDF。
+- `assets/portrait.png`：头像，使用本人提供的正式照片。
+- `assets/Xidong_Wang_CV.pdf`：从 `../iResume/resume.tex` 编译的英文 CV，导航直接打开 PDF。
 
-原始简历中的电话号码没有放入公开页面，原始 LaTeX 文件不随网站发布。
+公开页面和 PDF 使用学术邮箱作为联系方式。LaTeX 源文件维护在独立的 iResume 仓库中。
 
 ## GitHub Pages
 
@@ -39,10 +39,10 @@ python -m http.server 8000 --bind 127.0.0.1
 
 登录后可以运行 `bash scripts/deploy.sh`，该脚本会验证 GitHub 账号、创建不存在的仓库、推送并启用 Pages。已有非空同名仓库会停止，避免覆盖现有网站。
 
-## 内容来源与待确认项
+## 内容和设计
 
-初始资料来自 `../myresume/resume.tex`。CMB、Huatuo-26M 作者列表依据 ACL Anthology 的正式发表记录修正。LiveClin 博文仅总结原论文实验，不代表实时榜单。
+论文清单共 20 篇，依据本人提供的 Scholar 列表更新。共同一作标记按本人资料保留，新增论文的完整作者信息参考 arXiv / ACL Anthology。ClinAlign 已替换旧版 From Rubrics to Principles 条目。期刊版 LLMs for Doctors 使用 2025 年，预印本为 2024 年；部分条目保留本人提供的常用标题。
 
-简历中的 “From Rubrics to Principles” 与检索到的 ClinAlign 标题不同，初版保留简历的标题和作者，暂不添加可能指向不同版本的论文链接。Scholar 当时限流，因此未写入引用数；下载量和 star 数也没有作为实时数据展示。
+`publications.json` 内的引用数是本人提供的快照，并非实时数据，目前不在页面显示。主页展示代表作，Publications 页面列出完整清单并支持方向筛选。Blog 当前留空，草稿模板保留。
 
-设计参考 [Yue Ma](https://mayuelala.github.io/) 的学术内容结构和 [Tianyu Gao](https://gaotianyu.xyz/about/) 的简洁排版；页面实现为原创。
+设计参考 [Rongsheng Wang](https://w-r-s.github.io/) 和 [Junying Chen](https://jymchen.github.io/) 的紧凑学术排版与论文层次，保留独立 Blog 导航；实现为原创。

@@ -19,7 +19,7 @@ class Page(HTMLParser):
         for attr in ['href','src']:
             if attr in a:self.links.append(a[attr])
 pages={}
-for path in [ROOT/'index.html',*(ROOT/'blog').rglob('*.html'),*(ROOT/'publications').glob('*.html'),*(ROOT/'cv').glob('*.html')]:
+for path in [ROOT/'index.html',*(ROOT/'blog').rglob('*.html'),*(ROOT/'publications').glob('*.html')]:
     p=Page();p.feed(path.read_text());pages[path.resolve()]=p
     if p.h1!=1 or not p.title or not p.viewport:errors.append(f'{path}: missing heading/title/viewport')
     if len(p.ids)!=len(set(p.ids)):errors.append(f'{path}: duplicate IDs')
@@ -32,5 +32,10 @@ for path,p in pages.items():
         if not target.exists():errors.append(f'{path.name}: missing target {link}')
         if u.fragment and target in pages and u.fragment not in pages[target].ids:errors.append(f'Broken anchor: {link}')
 for path in [ROOT/'sitemap.xml',ROOT/'blog/feed.xml']:ET.parse(path)
+pdf = ROOT/'assets/Xidong_Wang_CV.pdf'
+if not pdf.exists() or not pdf.read_bytes().startswith(b'%PDF-'):
+    errors.append('CV must be a compiled PDF')
+if (ROOT/'cv/index.html').exists():
+    errors.append('Retired HTML CV still exists')
 assert not errors,'\n'.join(errors)
 print(f'Passed: {len(pages)} pages; internal links, anchors, image alt text, metadata, sitemap, and Atom feed.')

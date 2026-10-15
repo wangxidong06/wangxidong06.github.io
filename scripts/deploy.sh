@@ -28,7 +28,8 @@ if [[ ! -d .git ]]; then git init -b main; fi
 git config user.name 'Xidong Wang'
 git config user.email 'wangxidong06@users.noreply.github.com'
 "$GH" auth setup-git
-git add index.html assets blog publications cv content scripts .github .gitignore .nojekyll README.md requirements.txt publications.json robots.txt sitemap.xml
+git add -u
+git add index.html assets blog publications content scripts .github .gitignore .nojekyll README.md requirements.txt publications.json robots.txt sitemap.xml
 if ! git diff --cached --quiet; then git commit -m 'Build academic homepage with publications and Markdown blog'; fi
 if ! git remote get-url origin >/dev/null 2>&1; then git remote add origin "https://github.com/$repo.git"; fi
 origin="$(git remote get-url origin)"

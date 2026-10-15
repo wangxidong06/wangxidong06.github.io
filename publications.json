@@ -5,15 +5,23 @@
     "venue": "Preprint · 2024",
     "paper": "https://arxiv.org/abs/2403.03640",
     "code": "https://github.com/FreedomIntelligence/Apollo",
-    "selected": true
+    "selected": true,
+    "citations": 90,
+    "year": 2024,
+    "category": "Medical AI",
+    "leading": true
   },
   {
-    "title": "From Rubrics to Principles: Scalable Healthcare Alignment with Clinician-Grounded Principles",
-    "authors": "Xidong Wang*, Shiwei Lyu*, Hao Zhu, Lei Liu, Chaohe Zhang, Jian Wang, Jinjie Gu, Benyou Wang, Yue Shen",
+    "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
+    "authors": "Shiwei Lyu*, Xidong Wang*, Lei Liu, Hao Zhu, Chaohe Zhang, Jian Wang, Jinjie Gu, Benyou Wang, Yue Shen",
     "venue": "Findings of ACL · 2026",
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2602.09653",
     "code": "",
-    "selected": true
+    "selected": true,
+    "citations": 3,
+    "year": 2026,
+    "category": "Medical AI",
+    "leading": true
   },
   {
     "title": "LiveClin: A Live Clinical Benchmark without Leakage",
@@ -21,7 +29,11 @@
     "venue": "ICLR · 2026",
     "paper": "https://arxiv.org/abs/2602.16747",
     "code": "https://github.com/AQ-MedAI/LiveClin",
-    "selected": true
+    "selected": true,
+    "citations": 5,
+    "year": 2026,
+    "category": "Medical AI",
+    "leading": true
   },
   {
     "title": "Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts",
@@ -29,7 +41,11 @@
     "venue": "ICLR · 2025",
     "paper": "https://arxiv.org/abs/2410.10626",
     "code": "https://github.com/FreedomIntelligence/ApolloMoE",
-    "selected": true
+    "selected": true,
+    "citations": 26,
+    "year": 2025,
+    "category": "Medical AI",
+    "leading": true
   },
   {
     "title": "CMB: A Comprehensive Medical Benchmark in Chinese",
@@ -37,7 +53,11 @@
     "venue": "NAACL · 2024",
     "paper": "https://aclanthology.org/2024.naacl-long.343/",
     "code": "https://github.com/FreedomIntelligence/CMB",
-    "selected": true
+    "selected": true,
+    "citations": 216,
+    "year": 2024,
+    "category": "Medical AI",
+    "leading": true
   },
   {
     "title": "LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture",
@@ -45,31 +65,47 @@
     "venue": "Findings of EMNLP · 2025",
     "paper": "https://arxiv.org/abs/2409.02889",
     "code": "https://github.com/FreedomIntelligence/LongLLaVA",
-    "selected": true
+    "selected": true,
+    "citations": 119,
+    "year": 2025,
+    "category": "Multimodal",
+    "leading": true
   },
   {
     "title": "Huatuo-26M, a Large-scale Chinese Medical QA Dataset",
-    "authors": "Xidong Wang, Jianquan Li, Shunian Chen, Yuxuan Zhu, Xiangbo Wu, Zhiyi Zhang, Xiaolong Xu, Junying Chen, Jie Fu, Xiang Wan, Anningzhe Gao, Benyou Wang",
+    "authors": "Xidong Wang*, Shunian Chen*, Jianquan Li*, Yuxuan Zhu, Xiangbo Wu, Zhiyi Zhang, Xiaolong Xu, Jie Fu, Prayag Tiwari, Xiang Wan, Benyou Wang",
     "venue": "Findings of NAACL · 2025",
     "paper": "https://aclanthology.org/2025.findings-naacl.211/",
     "code": "https://github.com/FreedomIntelligence/Huatuo-26M",
-    "selected": false
+    "selected": false,
+    "citations": 152,
+    "year": 2025,
+    "category": "Medical AI",
+    "leading": true
   },
   {
     "title": "HuatuoGPT-II, One-stage Training for Medical Adaptation of LLMs",
     "authors": "Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, Dingjie Song, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang",
     "venue": "COLM · 2024",
-    "paper": "",
-    "code": "",
-    "selected": false
+    "paper": "https://arxiv.org/abs/2311.09774",
+    "code": "https://github.com/FreedomIntelligence/HuatuoGPT-II",
+    "selected": false,
+    "citations": 188,
+    "year": 2024,
+    "category": "Medical AI",
+    "leading": false
   },
   {
     "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
     "authors": "Junying Chen, Zhenyang Cai, Ke Ji, Xidong Wang, Wanlong Liu, Rongsheng Wang, Jianye Hou, Benyou Wang",
     "venue": "Findings of ACL · 2025",
-    "paper": "",
-    "code": "",
-    "selected": false
+    "paper": "https://arxiv.org/abs/2412.18925",
+    "code": "https://github.com/FreedomIntelligence/HuatuoGPT-o1",
+    "selected": false,
+    "citations": 449,
+    "year": 2025,
+    "category": "Medical AI",
+    "leading": false
   },
   {
     "title": "HuatuoGPT-Vision, towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale",
@@ -77,14 +113,130 @@
     "venue": "EMNLP · 2024",
     "paper": "https://aclanthology.org/2024.emnlp-main.418/",
     "code": "https://github.com/FreedomIntelligence/HuatuoGPT-Vision",
-    "selected": false
+    "selected": false,
+    "citations": 409,
+    "year": 2024,
+    "category": "Medical AI",
+    "leading": false
   },
   {
     "title": "CoD, towards an Interpretable Medical Agent using Chain of Diagnosis",
     "authors": "Junying Chen, Chi Gui, Anningzhe Gao, Ke Ji, Xidong Wang, Xiang Wan, Benyou Wang",
     "venue": "Findings of ACL · 2025",
-    "paper": "",
+    "paper": "https://arxiv.org/abs/2407.13301",
+    "code": "https://github.com/FreedomIntelligence/Chain-of-Diagnosis",
+    "selected": false,
+    "citations": 91,
+    "year": 2025,
+    "category": "Medical AI",
+    "leading": false
+  },
+  {
+    "title": "ShareGPT-4o-Image: Aligning Multimodal Models with GPT-4o-Level Image Generation",
+    "authors": "Junying Chen, Zhenyang Cai, Pengcheng Chen, Shunian Chen, Ke Ji, Xidong Wang, Yunjin Yang, Benyou Wang",
+    "venue": "Preprint · 2025",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2506.18095",
+    "code": "https://github.com/FreedomIntelligence/ShareGPT-4o-Image",
+    "selected": false,
+    "leading": false,
+    "citations": 94,
+    "category": "Multimodal"
+  },
+  {
+    "title": "XtraGPT: LLMs for Human-AI Collaboration on Controllable Academic Paper Revision",
+    "authors": "Nuo Chen, Andre Lin HuiKai, Jiaying Wu, Junyi Hou, Zining Zhang, Qian Wang, Xidong Wang, Bingsheng He",
+    "venue": "ACL · 2026",
+    "year": 2026,
+    "paper": "https://arxiv.org/abs/2505.11336",
     "code": "",
-    "selected": false
+    "selected": false,
+    "leading": false,
+    "citations": 18,
+    "category": "Agents"
+  },
+  {
+    "title": "Roadmap towards Superhuman Speech Understanding using Large Language Models",
+    "authors": "Fan Bu, Yuhao Zhang, Xidong Wang, Benyou Wang, Qun Liu, Haizhou Li",
+    "venue": "Preprint · 2024",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2410.13268",
+    "code": "",
+    "selected": false,
+    "leading": false,
+    "citations": 9,
+    "category": "Multimodal"
+  },
+  {
+    "title": "Do Phone-Use Agents Respect Your Privacy?",
+    "authors": "Zhengyang Tang*, Ke Ji*, Xidong Wang*, Zihan Ye*, Xinyuan Wang, Yiduo Guo, Ziniu Li, Chenxin Li, Jingyuan Hu, Shunian Chen, Tongxu Luo, Jiaxi Bi, Zeyu Qin, Shaobo Wang, Xin Lai, Pengyuan Lyu, Junyi Li, Can Xu, Chengquan Zhang, Han Hu, Ming Yan, Benyou Wang",
+    "venue": "Preprint · 2026",
+    "year": 2026,
+    "paper": "https://arxiv.org/abs/2604.00986",
+    "code": "",
+    "selected": false,
+    "leading": true,
+    "citations": 6,
+    "category": "Agents"
+  },
+  {
+    "title": "WaveMind: Towards a Conversational EEG Foundation Model Aligned to Textual and Visual Modalities",
+    "authors": "Ziyi Zeng, Zhenyang Cai, Yixi Cai, Xidong Wang, Junying Chen, Rongsheng Wang, Yipeng Liu, Siqi Cai, Benyou Wang, Zhiguo Zhang, Haizhou Li",
+    "venue": "Preprint · 2025",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2510.00032",
+    "code": "",
+    "selected": false,
+    "leading": false,
+    "citations": 6,
+    "category": "Multimodal"
+  },
+  {
+    "title": "To What Extent Do Token-Level Representations from Pathology Foundation Models Improve Dense Prediction?",
+    "authors": "Weiming Chen, Xitong Ling, Xidong Wang, Zhenyang Cai, Yijia Guo, Mingxi Fu, Ziyi Zeng, Minxi Ouyang, Jiawen Li, Yizhi Wang, Tian Guan, Benyou Wang, Yonghong He",
+    "venue": "Preprint · 2026",
+    "year": 2026,
+    "paper": "https://arxiv.org/abs/2602.03887",
+    "code": "",
+    "selected": false,
+    "leading": false,
+    "citations": null,
+    "category": "Medical AI"
+  },
+  {
+    "title": "Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs",
+    "authors": "Dingjie Song, Wenjun Wang, Shunian Chen, Xidong Wang, Michael X. Guan, Benyou Wang",
+    "venue": "COLING · 2025",
+    "year": 2025,
+    "paper": "https://aclanthology.org/2025.coling-main.508/",
+    "code": "https://github.com/FreedomIntelligence/TRIM",
+    "citations": 78,
+    "category": "Multimodal",
+    "selected": false,
+    "leading": false
+  },
+  {
+    "title": "MLLM-Bench: Evaluating Multi-modal LLMs using GPT-4V",
+    "authors": "Wentao Ge, Shunian Chen, Guiming Hardy Chen, Nuo Chen, Junying Chen, Zhihong Chen, Wenya Xie, Shuo Yan, Chenghao Zhu, Ziyue Lin, Dingjie Song, Xidong Wang, Anningzhe Gao, Zhiyi Zhang, Jianquan Li, Xiang Wan, Benyou Wang",
+    "venue": "NAACL · 2025",
+    "year": 2025,
+    "paper": "https://aclanthology.org/2025.naacl-long.256/",
+    "code": "https://github.com/FreedomIntelligence/MLLM-Bench",
+    "citations": 53,
+    "category": "Multimodal",
+    "selected": false,
+    "leading": false
+  },
+  {
+    "title": "LLMs for Doctors: Leveraging Medical LLMs to Assist Doctors, Not Replace Them",
+    "authors": "Wenya Xie, Qingying Xiao, Yu Zheng, Xidong Wang, Junying Chen, Ke Ji, Anningzhe Gao, Prayag Tiwari, Xiang Wan, Feng Jiang, Benyou Wang",
+    "venue": "npj Health Systems · 2025",
+    "year": 2025,
+    "paper": "https://www.nature.com/articles/s44401-025-00038-z",
+    "code": "",
+    "citations": 12,
+    "category": "Medical AI",
+    "selected": false,
+    "leading": false
   }
 ]
