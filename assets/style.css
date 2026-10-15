@@ -5,3 +5,6 @@
 .paper-highlight{color:#a65312;font-weight:600;font-size:13px;margin:5px 0 0}
 
 .entry .experience-detail{margin:8px 0;line-height:1.65}.entry .entry-links{margin:6px 0;font-size:12px}.news-highlight{color:#b34224}.news li{margin-bottom:16px}
+
+/* News stays compact while every update remains accessible. */
+.news-heading{margin-bottom:10px}.scroll-hint{font-size:12px;color:var(--muted);white-space:nowrap}.news-scroll{max-height:300px;overflow-y:auto;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#a8b8c9 #f3f6f9;padding:0 14px 0 2px;border-bottom:1px solid var(--line)}.news-scroll:focus-visible{outline:2px solid var(--blue);outline-offset:5px;border-radius:2px}.news-scroll .news{margin:0}.news-scroll .news li:first-child{margin-top:6px}.news-scroll::-webkit-scrollbar{width:6px}.news-scroll::-webkit-scrollbar-track{background:#f3f6f9}.news-scroll::-webkit-scrollbar-thumb{background:#a8b8c9;border-radius:6px}@media(max-width:600px){.news-scroll{max-height:320px;padding-right:10px}.scroll-hint{font-size:11px}}@media print{.news-scroll{max-height:none;overflow:visible;border:0}.scroll-hint{display:none}}
