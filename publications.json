@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Apollo: A Lightweight Multilingual Medical LLM towards Democratizing Medical AI to 6B People",
+    "authors": "Xidong Wang*, Nuo Chen*, Junyin Chen*, Yan Hu, Yidong Wang, Xiangbo Wu, Anningzhe Gao, Xiang Wan, Haizhou Li, Benyou Wang",
+    "venue": "Preprint · 2024",
+    "paper": "https://arxiv.org/abs/2403.03640",
+    "code": "https://github.com/FreedomIntelligence/Apollo",
+    "selected": true
+  },
+  {
+    "title": "From Rubrics to Principles: Scalable Healthcare Alignment with Clinician-Grounded Principles",
+    "authors": "Xidong Wang*, Shiwei Lyu*, Hao Zhu, Lei Liu, Chaohe Zhang, Jian Wang, Jinjie Gu, Benyou Wang, Yue Shen",
+    "venue": "Findings of ACL · 2026",
+    "paper": "",
+    "code": "",
+    "selected": true
+  },
+  {
+    "title": "LiveClin: A Live Clinical Benchmark without Leakage",
+    "authors": "Xidong Wang, Shuqi Guo, Yue Shen, Junying Chen, Jian Wang, Jinjie Gu, Ping Zhang, Lei Liu, Benyou Wang",
+    "venue": "ICLR · 2026",
+    "paper": "https://arxiv.org/abs/2602.16747",
+    "code": "https://github.com/AQ-MedAI/LiveClin",
+    "selected": true
+  },
+  {
+    "title": "Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts",
+    "authors": "Guorui Zheng*, Xidong Wang*, Juhao Liang, Nuo Chen, Yuping Zheng, Benyou Wang",
+    "venue": "ICLR · 2025",
+    "paper": "https://arxiv.org/abs/2410.10626",
+    "code": "https://github.com/FreedomIntelligence/ApolloMoE",
+    "selected": true
+  },
+  {
+    "title": "CMB: A Comprehensive Medical Benchmark in Chinese",
+    "authors": "Xidong Wang, Guiming Hardy Chen, Dingjie Song, Zhiyi Zhang, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li",
+    "venue": "NAACL · 2024",
+    "paper": "https://aclanthology.org/2024.naacl-long.343/",
+    "code": "https://github.com/FreedomIntelligence/CMB",
+    "selected": true
+  },
+  {
+    "title": "LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture",
+    "authors": "Xidong Wang*, Dingjie Song*, Shunian Chen, Chen Zhang, Benyou Wang",
+    "venue": "Findings of EMNLP · 2025",
+    "paper": "https://arxiv.org/abs/2409.02889",
+    "code": "https://github.com/FreedomIntelligence/LongLLaVA",
+    "selected": true
+  },
+  {
+    "title": "Huatuo-26M, a Large-scale Chinese Medical QA Dataset",
+    "authors": "Xidong Wang, Jianquan Li, Shunian Chen, Yuxuan Zhu, Xiangbo Wu, Zhiyi Zhang, Xiaolong Xu, Junying Chen, Jie Fu, Xiang Wan, Anningzhe Gao, Benyou Wang",
+    "venue": "Findings of NAACL · 2025",
+    "paper": "https://aclanthology.org/2025.findings-naacl.211/",
+    "code": "https://github.com/FreedomIntelligence/Huatuo-26M",
+    "selected": false
+  },
+  {
+    "title": "HuatuoGPT-II, One-stage Training for Medical Adaptation of LLMs",
+    "authors": "Junying Chen, Xidong Wang, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, Dingjie Song, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang",
+    "venue": "COLM · 2024",
+    "paper": "",
+    "code": "",
+    "selected": false
+  },
+  {
+    "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+    "authors": "Junying Chen, Zhenyang Cai, Ke Ji, Xidong Wang, Wanlong Liu, Rongsheng Wang, Jianye Hou, Benyou Wang",
+    "venue": "Findings of ACL · 2025",
+    "paper": "",
+    "code": "",
+    "selected": false
+  },
+  {
+    "title": "HuatuoGPT-Vision, towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale",
+    "authors": "Junying Chen, Ruyi Ouyang, Anningzhe Gao, Shunian Chen, Guiming Hardy Chen, Xidong Wang, Ruifei Zhang, Zhenyang Cai, Ke Ji, Guangjun Yu, Xiang Wan, Benyou Wang",
+    "venue": "EMNLP · 2024",
+    "paper": "https://aclanthology.org/2024.emnlp-main.418/",
+    "code": "https://github.com/FreedomIntelligence/HuatuoGPT-Vision",
+    "selected": false
+  },
+  {
+    "title": "CoD, towards an Interpretable Medical Agent using Chain of Diagnosis",
+    "authors": "Junying Chen, Chi Gui, Anningzhe Gao, Ke Ji, Xidong Wang, Xiang Wan, Benyou Wang",
+    "venue": "Findings of ACL · 2025",
+    "paper": "",
+    "code": "",
+    "selected": false
+  }
+]

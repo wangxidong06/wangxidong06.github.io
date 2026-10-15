@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LiveClin: evaluating medical AI with evolving clinical cases | Xidong Wang</title><meta name="description" content="A closer look at our ICLR 2026 work on clinical evaluation, data contamination, and keeping medical benchmarks current.">
+<link rel="canonical" href="https://wangxidong06.github.io/blog/2026-10-15-liveclin/"><meta property="og:title" content="LiveClin: evaluating medical AI with evolving clinical cases | Xidong Wang"><meta property="og:description" content="A closer look at our ICLR 2026 work on clinical evaluation, data contamination, and keeping medical benchmarks current."><meta property="og:type" content="article"><meta property="og:image" content="https://wangxidong06.github.io/assets/portrait.png"><meta property="og:url" content="https://wangxidong06.github.io/blog/2026-10-15-liveclin/"><link rel="stylesheet" href="../../assets/style.css"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/atom+xml" title="Xidong Wang — Blog" href="../../blog/feed.xml"></head>
+<body><a class="skip" href="#main">Skip to content</a><div class="shell"><header class="topbar"><a class="brand" href="../../index.html">Xidong Wang</a><nav aria-label="Main navigation"><a href="../../index.html">About</a><a href="../../publications/">Publications</a><a href="../../blog/" aria-current="page">Blog</a><a href="../../cv/">CV</a></nav></header>
+<main id="main"><article class="article"><a class="back" href="../">← All posts</a><p class="eyebrow">Research note</p><h1>LiveClin: evaluating medical AI with evolving clinical cases</h1><p class="post-meta">Xidong Wang · <time datetime="2026-10-15">2026-10-15</time></p><p>Static benchmarks can become less informative as medical knowledge changes and evaluation examples enter training data. <strong>LiveClin</strong> explores a different approach: a live clinical benchmark built from contemporary, peer-reviewed case reports and updated biannually.</p>
+<h2>From questions to clinical pathways</h2>
+<p>The benchmark includes 1,407 case reports and 6,605 questions. Its multimodal evaluation scenarios span the clinical pathway, with a verified AI–human workflow involving 239 physicians.</p>
+<p>Rather than evaluating isolated factual recall alone, these cases ask models to work through complex clinical scenarios.</p>
+<h2>What the evaluation shows</h2>
+<p>In the paper's evaluation of 26 models, the highest case accuracy was 35.7%. Chief physicians achieved the strongest performance, followed by attending physicians; both groups outperformed most evaluated models.</p>
+<p>These results highlight the gap between strong benchmark knowledge and reliable performance across complete clinical cases.</p>
+<h2>Explore the work</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2602.16747">Read the paper on arXiv</a></li>
+<li><a href="https://github.com/AQ-MedAI/LiveClin">Explore the code and data</a></li>
+</ul>
+<p><em>This note summarizes the experiments reported in the LiveClin paper. Results refer to that evaluation, rather than a continuously updated model ranking.</em></p></article></main><footer><span>© 2026 Xidong Wang</span><span><a href="mailto:xidongwang1@link.cuhk.edu.cn">Email</a> · <a href="https://github.com/wangxidong06">GitHub</a> · <a href="https://scholar.google.com/citations?user=WJeSzQMAAAAJ&amp;hl=en">Google Scholar</a></span></footer></div></body></html>
