@@ -33,7 +33,7 @@ for path in (ROOT / 'content/posts').glob('*.md'):
     posts.append(meta)
 posts.sort(key=lambda p: p['date'], reverse=True)
 
-def page(title, content, active='About', location='', description='Xidong Wang — Ph.D. candidate at CUHK-Shenzhen. Democratizing large language models through efficient training, adaptation, and reinforcement learning.'):
+def page(title, content, active='About', location='', description='Xidong Wang — Ph.D. candidate at CUHK-Shenzhen. Democratizing progress toward AGI through stronger model architectures, training algorithms, and accessible medical AI.'):
     depth = len(Path(location).parts) if location else 0
     rel = '../' * depth
     nav = ''.join(f'<a href="{rel}{dest}"'+(' aria-current="page"' if label == active else '')+f'>{label}</a>' for label, dest in [('About','index.html'),('Publications','publications/'),('Blog','blog/'),('CV','assets/Xidong_Wang_CV.pdf')])
@@ -52,7 +52,7 @@ def paper_html(p):
     if p['paper']:
         title = f'<a href="{e(p["paper"], quote=True)}">{title}</a>'
     authors = e(p['authors']).replace('Xidong Wang', '<strong>Xidong Wang</strong>')
-    links = ''.join(f'<a href="{e(p[key], quote=True)}">{label} ↗</a>' for key, label in [('paper','Paper'),('code','Code'),('website','Website')] if p.get(key))
+    links = ''.join(f'<a href="{e(p[key], quote=True)}">{label} ↗</a>' for key, label in [('paper','Paper'),('code','Code'),('website','Website'),('impact_source','Industry adoption')] if p.get(key))
     highlight = f'<p class="paper-highlight">{e(p["highlight"])}</p>' if p.get('highlight') else ''
     return f'<article class="paper {"leading" if p.get("leading") else ""}" data-category="{e(p.get("category", ""))}"><h3>{title}</h3><p class="authors">{authors}</p><span class="venue">{e(p["venue"])}</span><span class="paper-links">{links}</span>{highlight}</article>'
 

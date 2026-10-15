@@ -69,7 +69,9 @@
     "leading": true,
     "priority": 3,
     "display_order": 3,
-    "website": "https://cmedbenchmark.llmzoo.com/static/leaderboard.html"
+    "website": "https://cmedbenchmark.llmzoo.com/static/leaderboard.html",
+    "highlight": "Evaluation participation from 20+ research institutions and companies, including publicly listed firms.",
+    "impact_source": "https://www.sinohealth.cn/sys-nd/1381.html"
   },
   {
     "title": "LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture",
@@ -281,5 +283,63 @@
     "leading": false,
     "priority": 100,
     "display_order": 119
+  },
+  {
+    "title": "Beyond ViT Tokens: Masked-Diffusion Pretrained Convolutional Pathology Foundation Model for Cell-Level Dense Prediction",
+    "authors": "Weiming Chen, Xitong Ling, Zhenyang Cai, Xidong Wang, Jiawen Li, Tian Guan, Benyou Wang, Yonghong He",
+    "venue": "NeurIPS · 2026 · Poster",
+    "paper": "https://arxiv.org/abs/2605.08276",
+    "code": "",
+    "category": "Medical AI",
+    "year": 2026,
+    "selected": false,
+    "leading": false,
+    "priority": 100,
+    "display_order": 6,
+    "citations": null
+  },
+  {
+    "title": "Incentivizing Medical Vision Capabilities from Large-Scale Multimodal Pre-training",
+    "authors": "Junying Chen, Zhenyang Cai, Yunjin Yang, Kunyuan Cai, Rongsheng Wang, Xidong Wang, Geyang Yu, Xiangyi Feng, Benyou Wang",
+    "venue": "NeurIPS · 2026",
+    "paper": "",
+    "code": "",
+    "category": "Medical AI",
+    "year": 2026,
+    "selected": false,
+    "leading": false,
+    "priority": 100,
+    "display_order": 7,
+    "citations": null,
+    "highlight": "Oral presentation",
+    "website": "https://sds.cuhk.edu.cn/article/2480"
+  },
+  {
+    "title": "UniReason-Med: A Shared Grounded Reasoning Interface for 2D-to-3D Transfer in Medical VQA",
+    "authors": "Mengzhuo Chen, Yan Shu, Chi Liu, Hongming Piao, Xidong Wang, Derek Li, Bryan Dai",
+    "venue": "EMNLP · 2026 · Main Conference",
+    "paper": "https://arxiv.org/abs/2606.11740",
+    "code": "https://github.com/IQuestLab/unireason-med",
+    "category": "Medical AI",
+    "year": 2026,
+    "selected": false,
+    "leading": false,
+    "priority": 100,
+    "display_order": 8,
+    "citations": null
+  },
+  {
+    "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
+    "authors": "Hongming Piao, Chi Liu, Mengzhuo Chen, Yan Shu, Xidong Wang, Derek Li, Ying Wei, Bryan Dai",
+    "venue": "EMNLP · 2026 · Main Conference",
+    "paper": "https://arxiv.org/abs/2606.13710",
+    "code": "",
+    "category": "Agents",
+    "year": 2026,
+    "selected": false,
+    "leading": false,
+    "priority": 100,
+    "display_order": 9,
+    "citations": null
   }
 ]
