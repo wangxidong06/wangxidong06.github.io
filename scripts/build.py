@@ -87,12 +87,12 @@ home = f'''<section class="profile" aria-label="Profile"><div><h1>Xidong WANG</h
 <section aria-labelledby="news-heading"><div class="section-heading news-heading"><h2 id="news-heading">News</h2><span class="scroll-hint" id="news-scroll-hint">Scroll for more ↓</span></div><div class="news-scroll" tabindex="0" role="region" aria-labelledby="news-heading" aria-describedby="news-scroll-hint"><ul class="news">
 <li><time>Sep. 2026</time><span><a href="https://iquestlab.github.io/"><strong>IQuest-Q1</strong></a> is out! Contributed to STEM and agent post-training. <a href="https://iquestlab.github.io/">Blog ↗</a></span></li>
 <li><time>Sep. 2026</time><span>Two papers accepted to <strong>NeurIPS 2026</strong>, including <strong class="news-highlight">one Oral</strong>! Congratulations to all co-authors!</span></li>
-<li><time>Aug. 2026</time><span>Two papers accepted to the <strong>EMNLP 2026 main conference</strong>! Congratulations to all co-authors!</span></li>
+<li><time>Aug. 2026</time><span>Two papers accepted to the <strong>EMNLP 2026</strong>! Congratulations to all co-authors!</span></li>
 <li><time>Apr. 2026</time><span>Two papers accepted to <strong>ACL 2026</strong>! Congratulations to all co-authors!</span></li>
 <li><time>Mar. 2026</time><span>Joined <strong><a href="https://iquestlab.com/">IQuest Research</a></strong> to work on foundation model post-training for STEM reasoning and agents.</span></li>
 <li><time>Jan. 2026</time><span>One paper accepted to <strong>ICLR 2026</strong>: <a href="https://arxiv.org/abs/2602.16747">LiveClin</a>! Congratulations to all co-authors!</span></li>
 <li><time>Dec. 2025</time><span>AQ became <a href="https://chat.antafu.com/"><strong>Ant Afu (蚂蚁阿福)</strong></a>! I contributed to the foundation model behind this AI healthcare app. <a href="https://chat.antafu.com/">Try it ↗</a></span></li>
-<li><time>2025</time><span><strong>ApolloMoE</strong> accepted to ICLR 2025, and <strong>LongLLaVA</strong> to Findings of EMNLP 2025!</span></li>
+<li><time>2025</time><span><strong>ApolloMoE</strong> accepted to ICLR 2025, and <strong>LongLLaVA</strong> to EMNLP 2025!</span></li>
 </ul></div></section>
 <section><h2>Industry Experience</h2>{experience}</section>
 <section><div class="section-heading"><h2>Selected publications</h2><a href="publications/">All publications →</a></div><p class="meta">Selected first- and co-first-author papers. * Equal contribution.</p>{''.join(paper_html(p) for p in selected)}</section>
