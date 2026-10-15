@@ -78,6 +78,7 @@ home = f'''<section class="profile" aria-label="Profile"><div><h1>Xidong WANG</h
 <p>My earlier work pursued the same goal through medical AI for social good, building open resources to broaden access:</p>
 <ul class="research-list">
 <li>Medical evaluation and leakage-resistant benchmarks (<a href="https://aclanthology.org/2024.naacl-long.343/">CMB</a>, <a href="https://arxiv.org/abs/2602.16747">LiveClin</a>)</li>
+<li>Healthcare alignment from clinician preferences (<a href="https://arxiv.org/abs/2602.09653">ClinAlign</a>)</li>
 <li>Medical models for 50 languages (<a href="https://arxiv.org/abs/2410.10626">ApolloMoE</a>)</li>
 <li>Open medical datasets and models (<a href="https://aclanthology.org/2025.findings-naacl.211/">Huatuo-26M</a>, <a href="https://github.com/FreedomIntelligence/HuatuoGPT">Huatuo Series</a>)</li>
 </ul>
