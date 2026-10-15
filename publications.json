@@ -54,7 +54,17 @@
     "category": "Medical AI",
     "leading": true,
     "priority": 0,
-    "display_order": 0
+    "display_order": 0,
+    "extra_links": [
+      {
+        "label": "Apollo: r/LocalLLaMA",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1b8mrzn/apollo_lightweight_multilingual_medical_llms/"
+      },
+      {
+        "label": "Apollo: r/MachineLearning",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1b8mml6/d_apollo_lightweight_multilingual_medical_llms/"
+      }
+    ]
   },
   {
     "title": "CMB: A Comprehensive Medical Benchmark in Chinese",
@@ -70,8 +80,29 @@
     "priority": 3,
     "display_order": 3,
     "website": "https://cmedbenchmark.llmzoo.com/static/leaderboard.html",
-    "highlight": "Evaluation participation from 20+ research institutions and companies, including publicly listed firms.",
-    "impact_source": "https://www.sinohealth.cn/sys-nd/1381.html"
+    "highlight": "Participation from publicly listed companies",
+    "extra_links": [
+      {
+        "label": "Sinohealth announcement",
+        "url": "https://www.sinohealth.cn/sys-nd/1381.html"
+      },
+      {
+        "label": "Coverage 1",
+        "url": "https://mp.weixin.qq.com/s/vgzq053TGwmIvIgAOy3CUg"
+      },
+      {
+        "label": "Coverage 2",
+        "url": "https://mp.weixin.qq.com/s/jrCYs9AiqzLL9GBCDZT4Pg"
+      },
+      {
+        "label": "Coverage 3",
+        "url": "https://mp.weixin.qq.com/s/cPvF8FxBwYkvJfVEagf0Jg"
+      },
+      {
+        "label": "Coverage 4",
+        "url": "https://mp.weixin.qq.com/s/f8ALRPyHkzkscGmqcE5G9Q"
+      }
+    ]
   },
   {
     "title": "LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture",
@@ -85,7 +116,13 @@
     "category": "Multimodal",
     "leading": true,
     "priority": 2,
-    "display_order": 2
+    "display_order": 2,
+    "extra_links": [
+      {
+        "label": "Synced (JiQiZhiXin) coverage",
+        "url": "https://mp.weixin.qq.com/s/ipfx6qaxeQlkILEVACabvA"
+      }
+    ]
   },
   {
     "title": "Huatuo-26M, a Large-scale Chinese Medical QA Dataset",

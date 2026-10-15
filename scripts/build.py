@@ -54,7 +54,8 @@ def paper_html(p):
     authors = e(p['authors']).replace('Xidong Wang', '<strong>Xidong Wang</strong>')
     links = ''.join(f'<a href="{e(p[key], quote=True)}">{label} ↗</a>' for key, label in [('paper','Paper'),('code','Code'),('website','Website'),('impact_source','Industry adoption')] if p.get(key))
     highlight = f'<p class="paper-highlight">{e(p["highlight"])}</p>' if p.get('highlight') else ''
-    return f'<article class="paper {"leading" if p.get("leading") else ""}" data-category="{e(p.get("category", ""))}"><h3>{title}</h3><p class="authors">{authors}</p><span class="venue">{e(p["venue"])}</span><span class="paper-links">{links}</span>{highlight}</article>'
+    coverage = '<p class="coverage-links">' + ' · '.join(f'<a href="{e(link["url"], quote=True)}">{e(link["label"])} ↗</a>' for link in p['extra_links']) + '</p>' if p.get('extra_links') else ''
+    return f'<article class="paper {"leading" if p.get("leading") else ""}" data-category="{e(p.get("category", ""))}"><h3>{title}</h3><p class="authors">{authors}</p><span class="venue">{e(p["venue"])}</span><span class="paper-links">{links}</span>{highlight}{coverage}</article>'
 
 def post_card(p, prefix=''):
     highlight = f'<p class="paper-highlight">{e(p["highlight"])}</p>' if p.get('highlight') else ''
