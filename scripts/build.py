@@ -85,7 +85,6 @@ home = f'''<section class="profile" aria-label="Profile"><div><h1>Xidong WANG</h
 </ul>
 <p>See <a href="publications/">publications</a> for the full list of my research papers.</p>
 </section>
-<section><h2>Education</h2>{education}</section>
 <section><h2>Industry Experience</h2>{experience}</section>
 <section aria-labelledby="news-heading"><div class="section-heading news-heading"><h2 id="news-heading">News</h2><span class="scroll-hint" id="news-scroll-hint">Scroll for more ↓</span></div><div class="news-scroll" tabindex="0" role="region" aria-labelledby="news-heading" aria-describedby="news-scroll-hint"><ul class="news">
 <li><time>Sep. 2026</time><span><a href="https://iquestlab.github.io/"><strong>IQuest-Q1</strong></a> is out! Contributed to STEM and agent post-training. <a href="https://iquestlab.github.io/">Blog ↗</a></span></li>
