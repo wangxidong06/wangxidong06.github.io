@@ -9,7 +9,9 @@
     "citations": 90,
     "year": 2024,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 100,
+    "highlight": "120K+ downloads on Hugging Face"
   },
   {
     "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
@@ -21,7 +23,8 @@
     "citations": 3,
     "year": 2026,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 4
   },
   {
     "title": "LiveClin: A Live Clinical Benchmark without Leakage",
@@ -33,7 +36,8 @@
     "citations": 5,
     "year": 2026,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 1
   },
   {
     "title": "Efficiently Democratizing Medical LLMs for 50 Languages via a Mixture of Language Family Experts",
@@ -45,7 +49,8 @@
     "citations": 26,
     "year": 2025,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 0
   },
   {
     "title": "CMB: A Comprehensive Medical Benchmark in Chinese",
@@ -57,7 +62,8 @@
     "citations": 216,
     "year": 2024,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 3
   },
   {
     "title": "LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture",
@@ -69,7 +75,8 @@
     "citations": 119,
     "year": 2025,
     "category": "Multimodal",
-    "leading": true
+    "leading": true,
+    "priority": 2
   },
   {
     "title": "Huatuo-26M, a Large-scale Chinese Medical QA Dataset",
@@ -81,7 +88,8 @@
     "citations": 152,
     "year": 2025,
     "category": "Medical AI",
-    "leading": true
+    "leading": true,
+    "priority": 5
   },
   {
     "title": "HuatuoGPT-II, One-stage Training for Medical Adaptation of LLMs",
@@ -93,7 +101,8 @@
     "citations": 188,
     "year": 2024,
     "category": "Medical AI",
-    "leading": false
+    "leading": false,
+    "priority": 100
   },
   {
     "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
@@ -105,7 +114,8 @@
     "citations": 449,
     "year": 2025,
     "category": "Medical AI",
-    "leading": false
+    "leading": false,
+    "priority": 100
   },
   {
     "title": "HuatuoGPT-Vision, towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale",
@@ -117,7 +127,9 @@
     "citations": 409,
     "year": 2024,
     "category": "Medical AI",
-    "leading": false
+    "leading": false,
+    "priority": 100,
+    "highlight": "824K+ downloads on Hugging Face"
   },
   {
     "title": "CoD, towards an Interpretable Medical Agent using Chain of Diagnosis",
@@ -129,7 +141,8 @@
     "citations": 91,
     "year": 2025,
     "category": "Medical AI",
-    "leading": false
+    "leading": false,
+    "priority": 100
   },
   {
     "title": "ShareGPT-4o-Image: Aligning Multimodal Models with GPT-4o-Level Image Generation",
@@ -141,7 +154,8 @@
     "selected": false,
     "leading": false,
     "citations": 94,
-    "category": "Multimodal"
+    "category": "Multimodal",
+    "priority": 100
   },
   {
     "title": "XtraGPT: LLMs for Human-AI Collaboration on Controllable Academic Paper Revision",
@@ -153,7 +167,8 @@
     "selected": false,
     "leading": false,
     "citations": 18,
-    "category": "Agents"
+    "category": "Agents",
+    "priority": 100
   },
   {
     "title": "Roadmap towards Superhuman Speech Understanding using Large Language Models",
@@ -165,7 +180,8 @@
     "selected": false,
     "leading": false,
     "citations": 9,
-    "category": "Multimodal"
+    "category": "Multimodal",
+    "priority": 100
   },
   {
     "title": "Do Phone-Use Agents Respect Your Privacy?",
@@ -177,7 +193,8 @@
     "selected": false,
     "leading": true,
     "citations": 6,
-    "category": "Agents"
+    "category": "Agents",
+    "priority": 100
   },
   {
     "title": "WaveMind: Towards a Conversational EEG Foundation Model Aligned to Textual and Visual Modalities",
@@ -189,7 +206,8 @@
     "selected": false,
     "leading": false,
     "citations": 6,
-    "category": "Multimodal"
+    "category": "Multimodal",
+    "priority": 100
   },
   {
     "title": "To What Extent Do Token-Level Representations from Pathology Foundation Models Improve Dense Prediction?",
@@ -201,7 +219,8 @@
     "selected": false,
     "leading": false,
     "citations": null,
-    "category": "Medical AI"
+    "category": "Medical AI",
+    "priority": 100
   },
   {
     "title": "Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs",
@@ -213,7 +232,8 @@
     "citations": 78,
     "category": "Multimodal",
     "selected": false,
-    "leading": false
+    "leading": false,
+    "priority": 100
   },
   {
     "title": "MLLM-Bench: Evaluating Multi-modal LLMs using GPT-4V",
@@ -225,7 +245,8 @@
     "citations": 53,
     "category": "Multimodal",
     "selected": false,
-    "leading": false
+    "leading": false,
+    "priority": 100
   },
   {
     "title": "LLMs for Doctors: Leveraging Medical LLMs to Assist Doctors, Not Replace Them",
@@ -237,6 +258,7 @@
     "citations": 12,
     "category": "Medical AI",
     "selected": false,
-    "leading": false
+    "leading": false,
+    "priority": 100
   }
 ]
