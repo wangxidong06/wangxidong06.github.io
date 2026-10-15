@@ -68,7 +68,23 @@ service = '''<p><strong>Reviewing.</strong> ICLR, ICML, NeurIPS, COLM, TMLR, and
 teaching = '''<div class="entry"><div><h3>CSC6052 · Natural Language Processing</h3><p>Teaching Assistant · CUHK-Shenzhen</p></div><time>Spring 2024 &amp; 2025</time></div><div class="entry"><div><h3>CSC6203 · Large Language Models</h3><p>Teaching Assistant · CUHK-Shenzhen</p></div><time>Fall 2023</time></div><p class="muted">Both courses taught by Prof. Benyou Wang.</p>'''
 selected = sorted([p for p in papers if p.get("selected") or p["title"].startswith("Huatuo-26M")], key=lambda p:p["display_order"])
 home = f'''<section class="profile" aria-label="Profile"><div><h1>Xidong WANG</h1><p class="role">Ph.D. Candidate · CUHK-Shenzhen</p><p>I am a Ph.D. candidate in Computer Science at <a href="https://www.cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen</a>, advised by <a href="https://wabyking.github.io/old.html">Prof. Benyou Wang</a>. I received my B.Eng. from Beijing Institute of Technology as part of <a href="https://xuteli.bit.edu.cn/">Xuteli School</a>’s elite talent program.</p><p>I am currently a research intern at <strong><a href="https://iquestlab.com/">IQuest Research</a></strong>.</p><p class="contact">Email: <a href="mailto:xidongwang1@link.cuhk.edu.cn">xidongwang1@link.cuhk.edu.cn</a></p><div class="social"><a href="{SCHOLAR.replace('&','&amp;')}">Google Scholar (2.0K+ citations)</a><span>/</span><a href="https://github.com/wangxidong06">GitHub</a><span>/</span><a href="assets/Xidong_Wang_CV.pdf">CV (PDF)</a></div></div><img class="portrait" src="assets/portrait.png" width="180" height="180" alt="Portrait of Xidong Wang"></section>
-<section><h2>Research</h2><p>My goal is to democratize progress toward AGI. I develop architectural and algorithmic methods that advance model capabilities while remaining efficient enough for researchers with modest resources to explore, contribute to, and build upon. (<a href="https://arxiv.org/abs/2409.02889">LongLLaVA</a>; T-Tuning and PPO+, forthcoming.)</p><p>My earlier work in medical AI was motivated by the same goal: using AI for social good and making its benefits more widely accessible through open-source datasets, benchmarks, and multilingual medical models. (<a href="https://arxiv.org/abs/2602.09653">ClinAlign</a>, <a href="https://aclanthology.org/2024.naacl-long.343/">CMB</a>, <a href="https://arxiv.org/abs/2403.03640">Apollo</a>, <a href="https://arxiv.org/abs/2410.10626">ApolloMoE</a>, <a href="https://github.com/FreedomIntelligence/HuatuoGPT">Huatuo series</a>, <a href="https://aclanthology.org/2025.findings-naacl.211/">Huatuo-26M</a>.)</p></section>
+<section><h2>Research</h2>
+<p>My goal is to democratize progress toward AGI. I develop architectural and algorithmic methods that advance model capabilities while remaining efficient enough for researchers with modest resources to explore, contribute to, and build upon:</p>
+<ul class="research-list">
+<li>Hybrid architectures for scalable multimodal learning (<a href="https://arxiv.org/abs/2409.02889">LongLLaVA</a>)</li>
+<li>Learning connections between Transformer blocks (T-Tuning, forthcoming)</li>
+<li>Reinforcement learning for reasoning through value estimation and policy optimization (PPO+, forthcoming)</li>
+</ul>
+<p>My earlier work in medical AI was motivated by the same goal: using AI for social good and making its benefits more widely accessible through open-source datasets, benchmarks, and multilingual medical models:</p>
+<ul class="research-list">
+<li>Comprehensive evaluation of Chinese medical language models (<a href="https://aclanthology.org/2024.naacl-long.343/">CMB</a>)</li>
+<li>Multilingual medical models serving 50 languages (<a href="https://arxiv.org/abs/2410.10626">ApolloMoE</a>)</li>
+<li>Live clinical evaluation to address benchmark leakage (<a href="https://arxiv.org/abs/2602.16747">LiveClin</a>)</li>
+<li>Large-scale open medical question-answering data (<a href="https://aclanthology.org/2025.findings-naacl.211/">Huatuo-26M</a>)</li>
+<li>Open medical language models and reasoning capabilities (<a href="https://github.com/FreedomIntelligence/HuatuoGPT">Huatuo Series</a>)</li>
+</ul>
+<p>See <a href="publications/">publications</a> for the full list of my research papers.</p>
+</section>
 <section><h2>Education</h2>{education}</section>
 <section><h2>Industry Experience</h2>{experience}</section>
 <section aria-labelledby="news-heading"><div class="section-heading news-heading"><h2 id="news-heading">News</h2><span class="scroll-hint" id="news-scroll-hint">Scroll for more ↓</span></div><div class="news-scroll" tabindex="0" role="region" aria-labelledby="news-heading" aria-describedby="news-scroll-hint"><ul class="news">
