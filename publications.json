@@ -68,7 +68,7 @@
   },
   {
     "title": "CMB: A Comprehensive Medical Benchmark in Chinese",
-    "authors": "Xidong Wang, Guiming Hardy Chen, Dingjie Song, Zhiyi Zhang, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li",
+    "authors": "Xidong Wang*, Guiming Hardy Chen*, Dingjie Song*, Zhiyi Zhang, Zhihong Chen, Qingying Xiao, Feng Jiang, Jianquan Li, Xiang Wan, Benyou Wang, Haizhou Li",
     "venue": "NAACL · 2024",
     "paper": "https://aclanthology.org/2024.naacl-long.343/",
     "code": "https://github.com/FreedomIntelligence/CMB",
